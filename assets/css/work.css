@@ -217,23 +217,27 @@ ol {
   transition: transform 0.6s cubic-bezier(0.645, 0.045, 0.355, 1); */
 }
 
+/* ================ MAIN CSS ================ */
+.heading-title,
+figure {
+  text-align: center;
+}
+.gallery-list {
+  padding: 12.5px 0;
+}
+
 /* ================ FOOTER CSS ================ */
 footer {
   padding-bottom: 25px;
 }
 footer .container {
-  font-size: 0.9rem;
+  font-size: 1rem;
 }
 .copyright {
-  color: var(--col-dabbled);
+  color: var(--col-white);
 }
 .right-footer li {
   padding: 0 0 0 10px;
-}
-
-/* ================ RESPONSIVE CSS ================ */
-.gallery-list {
-  padding: 12.5px 0;
 }
 
 /* ================ RESPONSIVE CSS ================ */
@@ -250,6 +254,9 @@ footer .container {
     margin: auto;
     padding-bottom: 0;
     flex-direction: column;
+  }
+  header {
+    text-align: center;
   }
 }
 @media (max-width: 992px) {
