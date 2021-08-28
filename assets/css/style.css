@@ -242,14 +242,14 @@ main {
 }
 /* TECHNOLOGY */
 .dabbled {
-  color: var(--col-dabbled);
+  color: var(--col-accent);
 }
 .technology-list {
   padding-top: 15px;
   padding-bottom: 15px;
 }
 .technology-list li:nth-child(n + 11) {
-  color: var(--col-dabbled);
+  color: var(--col-accent);
 }
 /* PROJECT */
 .project {
@@ -263,7 +263,7 @@ main {
   padding-top: 10px;
 }
 .project-content p {
-  color: var(--col-dabbled);
+  color: var(--col-accent);
   font-size: 1.5rem;
 }
 
